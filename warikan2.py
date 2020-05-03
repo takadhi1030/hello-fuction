@@ -1,4 +1,4 @@
-def warikan(amount, number_of_people):
+def calculate_warikan(amount, number_of_people):
     quotient = amount // number_of_people
     remainber = amount % number_of_people
     return f"1人あたり: {quotient}円,端数:{remainber}円"
